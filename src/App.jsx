@@ -145,7 +145,7 @@ function App() {
                       </label>
                     </div>
 
-                    <div className="title w-[47vw] flex place-content-center">
+                    <div title={finish[index] ? "Mark it as not finished" : "Mark it as finished"} className="title w-[47vw] flex place-content-center">
                       <div className={finish[index] ? "text m-5 line-through" : "text m-5"}>
                         {items}
                       </div>
