@@ -21,7 +21,8 @@ function App() {
 
     let newCount = [...count]
     newCount[0]++;
-    newCount[filter]++;
+    if(filter === 2) {newCount[filter]++}
+    else {newCount[1]++}
     setCount(newCount)
 
     setTodo("");
