@@ -33,8 +33,8 @@ Follow the steps below to run this project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AbhinavSinghVishen/react-todo-app.git
-cd react-todo-app
+git clone https://github.com/AbhinavSinghVishen/TodoApp.git
+cd TodoApp
 ```
 ### 2. Install dependencies
 
