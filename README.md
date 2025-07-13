@@ -6,8 +6,8 @@ A simple and responsive To-Do List application built with **React**. This app al
 
 - ✅ Add new tasks
 - ❌ Delete tasks
-- ❌ Edit tasks
-- ✏️ Mark tasks as completed
+- ✏️ Edit tasks
+- ✅ Mark tasks as completed
 - 🎨 Clean and minimalist UI
 - 📱 Fully responsive design
 
