@@ -11,8 +11,9 @@ function App() {
   const [count, setCount] = useState([0, 0, 0]);
 
   function addHandler() {
-    if(todo === ""){
+    if(todo.trim() === ""){
       setTask(false)
+      setTodo("")
       return
     }
     setTask(true)
@@ -30,8 +31,6 @@ function App() {
 
   function inputChangeHandler(e) {
     let str = e.target.value
-    e.target.value = str.trim()
-    if(e.target.value !== "") setTask(true)
     setTodo(e.target.value);
     // setTask(true)
   }
@@ -43,8 +42,9 @@ function App() {
 
   function editAddHandler() {
 
-    if(todo === ""){
+    if(todo.trim() === ""){
       setTask(false)
+      setTodo("")
       return
     }
     setTask(true)
